@@ -9,7 +9,12 @@
 #import "ViewController.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UINavigationBar *navigationBar;
+@property (weak, nonatomic) IBOutlet UINavigationItem *rightBarButton;
 
+@property (weak, nonatomic) IBOutlet UIButton *button1;     // Long Beach, CA
+@property (weak, nonatomic) IBOutlet UIButton *button2;     // New York, NY
+@property (weak, nonatomic) IBOutlet UIButton *button3;     // Chicago, IL
 @end
 
 @implementation ViewController

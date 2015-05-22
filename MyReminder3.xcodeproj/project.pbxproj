@@ -14,6 +14,13 @@
 		74BB097C1B0FA593002F4111 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74BB097B1B0FA593002F4111 /* Images.xcassets */; };
 		74BB097F1B0FA593002F4111 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74BB097D1B0FA593002F4111 /* LaunchScreen.xib */; };
 		74BB098B1B0FA594002F4111 /* MyReminder3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BB098A1B0FA594002F4111 /* MyReminder3Tests.m */; };
+		74BB09951B0FAC53002F4111 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74BB09941B0FAC53002F4111 /* MapKit.framework */; };
+		74BB09981B0FD477002F4111 /* Layer-66_48px_Palm.png in Resources */ = {isa = PBXBuildFile; fileRef = 74BB09971B0FD477002F4111 /* Layer-66_48px_Palm.png */; };
+		74BB099C1B0FD4B2002F4111 /* Layer-35_48px_Globe.png in Resources */ = {isa = PBXBuildFile; fileRef = 74BB099B1B0FD4B2002F4111 /* Layer-35_48px_Globe.png */; };
+		74BB099E1B0FD4D3002F4111 /* Layer-34_48px_Map.png in Resources */ = {isa = PBXBuildFile; fileRef = 74BB099D1B0FD4D3002F4111 /* Layer-34_48px_Map.png */; };
+		74BB09A01B0FD4E5002F4111 /* Layer-77_48px_Directions.png in Resources */ = {isa = PBXBuildFile; fileRef = 74BB099F1B0FD4E5002F4111 /* Layer-77_48px_Directions.png */; };
+		74BB09A21B0FD4F6002F4111 /* Layer-87_48px_Dude.png in Resources */ = {isa = PBXBuildFile; fileRef = 74BB09A11B0FD4F6002F4111 /* Layer-87_48px_Dude.png */; };
+		74BB09A41B0FD555002F4111 /* Layer-29_48px_Cool.png in Resources */ = {isa = PBXBuildFile; fileRef = 74BB09A31B0FD555002F4111 /* Layer-29_48px_Cool.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +47,13 @@
 		74BB09841B0FA594002F4111 /* MyReminder3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyReminder3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		74BB09891B0FA594002F4111 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		74BB098A1B0FA594002F4111 /* MyReminder3Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyReminder3Tests.m; sourceTree = "<group>"; };
+		74BB09941B0FAC53002F4111 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		74BB09971B0FD477002F4111 /* Layer-66_48px_Palm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Layer-66_48px_Palm.png"; path = "../../../Libraries/Iconsmind - Free 100 Icons/PNG/48 px/Layer-66_48px_Palm.png"; sourceTree = "<group>"; };
+		74BB099B1B0FD4B2002F4111 /* Layer-35_48px_Globe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Layer-35_48px_Globe.png"; path = "../../../Libraries/Iconsmind - Free 100 Icons/PNG/48 px/Layer-35_48px_Globe.png"; sourceTree = "<group>"; };
+		74BB099D1B0FD4D3002F4111 /* Layer-34_48px_Map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Layer-34_48px_Map.png"; path = "../../../Libraries/Iconsmind - Free 100 Icons/PNG/48 px/Layer-34_48px_Map.png"; sourceTree = "<group>"; };
+		74BB099F1B0FD4E5002F4111 /* Layer-77_48px_Directions.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Layer-77_48px_Directions.png"; path = "../../../Libraries/Iconsmind - Free 100 Icons/PNG/48 px/Layer-77_48px_Directions.png"; sourceTree = "<group>"; };
+		74BB09A11B0FD4F6002F4111 /* Layer-87_48px_Dude.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Layer-87_48px_Dude.png"; path = "../../../Libraries/Iconsmind - Free 100 Icons/PNG/48 px/Layer-87_48px_Dude.png"; sourceTree = "<group>"; };
+		74BB09A31B0FD555002F4111 /* Layer-29_48px_Cool.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Layer-29_48px_Cool.png"; path = "../../../Libraries/Iconsmind - Free 100 Icons/PNG/48 px/Layer-29_48px_Cool.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74BB09951B0FAC53002F4111 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +78,7 @@
 		74BB09621B0FA593002F4111 = {
 			isa = PBXGroup;
 			children = (
+				74BB09941B0FAC53002F4111 /* MapKit.framework */,
 				74BB096D1B0FA593002F4111 /* MyReminder3 */,
 				74BB09871B0FA594002F4111 /* MyReminder3Tests */,
 				74BB096C1B0FA593002F4111 /* Products */,
@@ -81,13 +97,11 @@
 		74BB096D1B0FA593002F4111 /* MyReminder3 */ = {
 			isa = PBXGroup;
 			children = (
-				74BB09721B0FA593002F4111 /* AppDelegate.h */,
-				74BB09731B0FA593002F4111 /* AppDelegate.m */,
-				74BB09751B0FA593002F4111 /* ViewController.h */,
-				74BB09761B0FA593002F4111 /* ViewController.m */,
-				74BB09781B0FA593002F4111 /* Main.storyboard */,
+				74BB09A81B0FDE26002F4111 /* Delegates */,
+				74BB09A61B0FDDFE002F4111 /* Model Layer */,
+				74BB09A71B0FDE08002F4111 /* View Layer */,
+				74BB09A51B0FDDF2002F4111 /* Controller Layer */,
 				74BB097B1B0FA593002F4111 /* Images.xcassets */,
-				74BB097D1B0FA593002F4111 /* LaunchScreen.xib */,
 				74BB096E1B0FA593002F4111 /* Supporting Files */,
 			);
 			path = MyReminder3;
@@ -96,6 +110,7 @@
 		74BB096E1B0FA593002F4111 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				74BB09961B0FD44E002F4111 /* Icons */,
 				74BB096F1B0FA593002F4111 /* Info.plist */,
 				74BB09701B0FA593002F4111 /* main.m */,
 			);
@@ -117,6 +132,53 @@
 				74BB09891B0FA594002F4111 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		74BB09961B0FD44E002F4111 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				74BB09A11B0FD4F6002F4111 /* Layer-87_48px_Dude.png */,
+				74BB099F1B0FD4E5002F4111 /* Layer-77_48px_Directions.png */,
+				74BB09971B0FD477002F4111 /* Layer-66_48px_Palm.png */,
+				74BB099B1B0FD4B2002F4111 /* Layer-35_48px_Globe.png */,
+				74BB099D1B0FD4D3002F4111 /* Layer-34_48px_Map.png */,
+				74BB09A31B0FD555002F4111 /* Layer-29_48px_Cool.png */,
+			);
+			name = Icons;
+			sourceTree = "<group>";
+		};
+		74BB09A51B0FDDF2002F4111 /* Controller Layer */ = {
+			isa = PBXGroup;
+			children = (
+				74BB09761B0FA593002F4111 /* ViewController.m */,
+				74BB09751B0FA593002F4111 /* ViewController.h */,
+			);
+			name = "Controller Layer";
+			sourceTree = "<group>";
+		};
+		74BB09A61B0FDDFE002F4111 /* Model Layer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Model Layer";
+			sourceTree = "<group>";
+		};
+		74BB09A71B0FDE08002F4111 /* View Layer */ = {
+			isa = PBXGroup;
+			children = (
+				74BB09781B0FA593002F4111 /* Main.storyboard */,
+				74BB097D1B0FA593002F4111 /* LaunchScreen.xib */,
+			);
+			name = "View Layer";
+			sourceTree = "<group>";
+		};
+		74BB09A81B0FDE26002F4111 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				74BB09731B0FA593002F4111 /* AppDelegate.m */,
+				74BB09721B0FA593002F4111 /* AppDelegate.h */,
+			);
+			name = Delegates;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,6 +230,11 @@
 				TargetAttributes = {
 					74BB096A1B0FA593002F4111 = {
 						CreatedOnToolsVersion = 6.3.1;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					74BB09831B0FA594002F4111 = {
 						CreatedOnToolsVersion = 6.3.1;
@@ -200,8 +267,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				74BB097A1B0FA593002F4111 /* Main.storyboard in Resources */,
+				74BB09981B0FD477002F4111 /* Layer-66_48px_Palm.png in Resources */,
+				74BB09A21B0FD4F6002F4111 /* Layer-87_48px_Dude.png in Resources */,
+				74BB09A41B0FD555002F4111 /* Layer-29_48px_Cool.png in Resources */,
+				74BB099C1B0FD4B2002F4111 /* Layer-35_48px_Globe.png in Resources */,
 				74BB097F1B0FA593002F4111 /* LaunchScreen.xib in Resources */,
 				74BB097C1B0FA593002F4111 /* Images.xcassets in Resources */,
+				74BB099E1B0FD4D3002F4111 /* Layer-34_48px_Map.png in Resources */,
+				74BB09A01B0FD4E5002F4111 /* Layer-77_48px_Directions.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
